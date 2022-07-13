@@ -109,6 +109,10 @@ body {
   color: #fff;
 }
 
+.header {
+  margin-bottom: 105px;
+}
+
 .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,7 +164,6 @@ body {
 }
 
 .nav__ref:hover {
-  font-weight: 700px;
   font-size: 25px;
   line-height: 152%;
   color: #58a9a5;
@@ -176,4 +179,52 @@ body {
   width: 48px;
   height: 6px;
   background: url("./../img/yellow-border.png") 0 0/contain no-repeat;
+}
+
+.page__start {
+  margin-bottom: 120px;
+}
+
+.start__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.start__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 48px 71px 0 27px;
+}
+
+.start__heading {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 150%;
+  color: #1c2323;
+  margin-bottom: 50px;
+}
+
+.start__text {
+  font-size: 30px;
+  line-height: 150%;
+  width: 735px;
+  color: #404242;
+  margin-bottom: 50px;
+}
+
+.start__button {
+  border-radius: 20px 20px 20px 0px;
+}
+
+.start__wrap-imgage {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 883px;
+          flex: 0 0 883px;
+}
+
+.start__image {
+  max-width: 100%;
+  margin-right: -13px;
 }

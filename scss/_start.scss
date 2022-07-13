@@ -1,2 +1,46 @@
 .start {
+    &__row {
+        display: flex;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+        padding: 48px 71px 0 27px;
+    }
+
+    &__heading {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 150%;
+
+        color: #1c2323;
+
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        font-size: 30px;
+        line-height: 150%;
+        width: 735px;
+
+        color: $colorGrey;
+
+        margin-bottom: 50px;
+    }
+
+    &__wrap-button {
+    }
+
+    &__button {
+        border-radius: 20px 20px 20px 0px;
+    }
+
+    &__wrap-imgage {
+        flex: 0 0 883px;
+    }
+
+    &__image {
+        max-width: 100%;
+        margin-right: -13px;
+    }
 }

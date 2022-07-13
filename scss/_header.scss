@@ -1,4 +1,6 @@
 .header {
+    margin-bottom: 105px;
+
     &__row {
         display: flex;
         justify-content: space-between;
@@ -61,7 +63,6 @@
         transition: all 0.3s ease 0s;
 
         &:hover {
-            font-weight: 700px;
             font-size: 25px;
             line-height: 152%;
 
