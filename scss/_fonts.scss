@@ -1,0 +1,15 @@
+@mixin font($fontFamily, $fileName, $fontWeight, $fontStyle) {
+    @font-face {
+        font-display: swap;
+        font-family: $fontFamily;
+        src: url("./../fonts/#{$fileName}.woff2") format("woff2"), url("./../fonts/#{$fileName}.woff") format("woff");
+        font-weight: #{$fontWeight};
+        font-style: #{$fontStyle};
+    }
+}
+
+@include font("Poppins", "poppins-v20-latin-regular", "400", "normal");
+@include font("Poppins", "poppins-v20-latin-500", "500", "normal");
+@include font("Poppins", "poppins-v20-latin-500italic", "500", "italic");
+@include font("Poppins", "poppins-v20-latin-700", "700", "normal");
+@include font("Poppins", "poppins-v20-latin-800", "800", "normal");

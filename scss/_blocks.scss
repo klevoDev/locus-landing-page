@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 85px 0;
+}
+
+.container {
+    max-width: 1612px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
+
+.button {
+    padding: 21px 87px 21px 88px;
+    border-radius: 15px;
+    background-color: $colorGreen;
+
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 152%;
+
+    color: $colorWhite;
+}
