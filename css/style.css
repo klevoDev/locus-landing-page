@@ -109,6 +109,27 @@ body {
   color: #fff;
 }
 
+.text {
+  font-size: 30px;
+  line-height: 150%;
+  width: 735px;
+  color: #404242;
+}
+
+.subheading {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 131%;
+  text-align: center;
+  color: #1c2323;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
 .header {
   margin-bottom: 105px;
 }
@@ -185,6 +206,10 @@ body {
   margin-bottom: 120px;
 }
 
+.page__work {
+  margin-bottom: 120px;
+}
+
 .start__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,10 +232,6 @@ body {
 }
 
 .start__text {
-  font-size: 30px;
-  line-height: 150%;
-  width: 735px;
-  color: #404242;
   margin-bottom: 50px;
 }
 
@@ -227,4 +248,99 @@ body {
 .start__image {
   max-width: 100%;
   margin-right: -13px;
+}
+
+.work__subheading {
+  margin-bottom: 20px;
+}
+
+.work__text {
+  margin: 0 auto;
+  margin-bottom: 71px;
+}
+
+.work__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 150px;
+}
+
+.work__row:last-child {
+  margin-bottom: -150px;
+}
+
+.work__img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.work__body {
+  position: relative;
+  padding: 70px 106px 89px 115px;
+  background: #ccf0e6;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.work__desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #486958;
+  max-width: 328px;
+  margin-bottom: 41px;
+}
+
+.work__link {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #486958;
+}
+
+.work__link::before {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: -180px;
+  width: 128px;
+  height: 128px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 65px;
+}
+
+.work__link::after {
+  content: "";
+  position: absolute;
+  bottom: -36px;
+  left: -165px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url("./../img/play.jpg");
+}
+
+.work__wrap-pic {
+  margin-left: 27px;
+}
+
+.work__case {
+  padding: 0 143px;
+}
+
+.work__title {
+  color: #1c2323;
+  width: 487px;
+  margin-bottom: 50px;
+}
+
+.work__word {
+  width: 708px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  color: #486958;
 }

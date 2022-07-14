@@ -1,0 +1,112 @@
+.work {
+    &__subheading {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin: 0 auto;
+
+        margin-bottom: 71px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: center;
+
+        margin-bottom: 150px;
+
+        &:last-child {
+            margin-bottom: -150px;
+        }
+    }
+
+    &__wrap-img {
+    }
+
+    &__img {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    &__body {
+        position: relative;
+
+        padding: 70px 106px 89px 115px;
+
+        background: #ccf0e6;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    &__desc {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+
+        color: #486958;
+
+        max-width: 328px;
+
+        margin-bottom: 41px;
+    }
+
+    &__link {
+        position: relative;
+
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+
+        color: #486958;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -50px;
+            left: -180px;
+
+            width: 128px;
+            height: 128px;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 65px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -36px;
+            left: -165px;
+
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: url("./../img/play.jpg");
+        }
+    }
+
+    &__wrap-pic {
+        margin-left: 27px;
+    }
+
+    &__pic {
+    }
+
+    &__case {
+        padding: 0 143px;
+    }
+
+    &__title {
+        color: #1c2323;
+        width: 487px;
+
+        margin-bottom: 50px;
+    }
+
+    &__word {
+        width: 708px;
+
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+
+        color: $colorDarkGreen;
+    }
+}

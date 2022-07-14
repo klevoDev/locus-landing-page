@@ -20,3 +20,27 @@
 
     color: $colorWhite;
 }
+
+.text {
+    font-size: 30px;
+    line-height: 150%;
+    width: 735px;
+
+    color: $colorGrey;
+}
+
+.subheading {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 131%;
+
+    text-align: center;
+
+    color: #1c2323;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+}
