@@ -13,18 +13,18 @@
         display: flex;
         justify-content: center;
 
-        margin-bottom: 150px;
-
-        &:last-child {
-            margin-bottom: -150px;
-        }
+        margin-bottom: 30px;
     }
 
     &__wrap-img {
+        width: 1063px;
+
+        margin-left: 27px;
     }
 
     &__img {
         border-radius: 10px 0px 0px 10px;
+        max-width: 100%;
     }
 
     &__body {
@@ -83,10 +83,13 @@
     }
 
     &__wrap-pic {
+        width: 642px;
+
         margin-left: 27px;
     }
 
     &__pic {
+        max-width: 100%;
     }
 
     &__case {
